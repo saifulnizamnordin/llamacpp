@@ -2,6 +2,13 @@
 
 llama.cpp server + built-in Web UI in Docker, running **Qwen3.6-35B-A3B** (35B MoE, ~3B active params) on CPU.
 
+## Model Download
+
+The model is automatically downloaded on first run. To manually download:
+
+- [Qwen3.6-35B-A3B GGUF (Q4_K_XL)](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/tree/main) - ~12 GB
+- [Hugging Face Repository](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)
+
 ## Hardware this is tuned for
 
 - Intel i7-11850H (8 cores), 64 GB RAM
